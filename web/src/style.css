@@ -1,2 +1,11 @@
 :root{font-family:system-ui,sans-serif;color:#111827;background:#f3f4f6}body{margin:0}main{max-width:680px;margin:auto;padding:24px}h1{margin-bottom:4px}.intro,.privacy{color:#4b5563}label{display:block;margin:18px 0;font-weight:700}input[type=number]{width:90px;padding:10px;font-size:18px}.pick{background:#111827;color:white;padding:16px;border-radius:12px;text-align:center}.pick input{display:block;margin:12px auto 0;color:white}#status{padding:12px;background:white;border-radius:10px}section{background:white;padding:18px;border-radius:12px}pre{white-space:pre-wrap;font-family:system-ui;line-height:1.55}.buttons{display:grid;gap:10px}button{padding:14px;border:0;border-radius:10px;font-size:16px;font-weight:700;background:#e5e7eb}.privacy{font-size:13px;margin-top:24px}
 button:disabled{opacity:.65;cursor:wait}.success{font-weight:800}.error{font-weight:800}#bulkStatus,#driveStatus{font-weight:600}
+
+.action-button{position:relative;transform:translateY(0);box-shadow:0 4px 0 rgba(0,0,0,.28);transition:transform .08s ease,box-shadow .08s ease,filter .08s ease}
+.action-button:active,.action-button.is-pressed{transform:translateY(4px);box-shadow:0 0 0 rgba(0,0,0,.28);filter:brightness(.88)}
+.action-button.is-working{transform:translateY(3px);box-shadow:0 1px 0 rgba(0,0,0,.28);filter:brightness(.92)}
+.drive-action{display:inline-flex;flex-direction:column;align-items:flex-start;gap:8px;vertical-align:top}
+.save-feedback{display:none;padding:9px 12px;border-radius:8px;background:#fff3cd;color:#664d03;font-weight:700;line-height:1.25}
+.save-feedback.show{display:block}
+.save-feedback.done{background:#d1e7dd;color:#0f5132}
+.save-feedback.fail{background:#f8d7da;color:#842029}
