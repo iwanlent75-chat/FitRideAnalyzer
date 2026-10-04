@@ -1,0 +1,6 @@
+*.fit
+*.FIT
+*.csv
+*.analysis.txt
+web/dist/
+web/node_modules/
