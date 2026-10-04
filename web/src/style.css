@@ -9,3 +9,7 @@ button:disabled{opacity:.65;cursor:wait}.success{font-weight:800}.error{font-wei
 .save-feedback.show{display:block}
 .save-feedback.done{background:#d1e7dd;color:#0f5132}
 .save-feedback.fail{background:#f8d7da;color:#842029}
+
+button.action-button{width:100%;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+button.action-button:active{transform:translateY(4px)!important;box-shadow:0 0 0 rgba(0,0,0,.28)!important;filter:brightness(.82)}
+.drive-action{width:100%}
